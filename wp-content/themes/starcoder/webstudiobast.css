@@ -1,0 +1,73 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+li {
+  line-height: 26px;
+  margin-bottom: 14px;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  -webkit-text-fill-color: #2B63C4;
+  -webkit-box-shadow: 0 0 0px 1000px #F8F8F8 inset;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+input, textarea {
+    outline: none !important;
+}
+
+a:hover {
+  color: #FFCC08 !important;
+}
+
+a:active {
+  color: #FFCC08 !important;
+}
+
+a:focus {
+  color: #FEFEFE;
+}
+
+button {
+  user-select: none;
+}
+
+.grid-container {
+  max-width: 1172px;
+  padding: 0 15px;
+}
+
+
+
+@media  print, screen and (max-width:370px) {
+  .polilang_list {
+    max-width: 110px;
+    margin: 0 65px 0 auto;
+  }
+
+  .polilang_list a {
+    font-size: 18px;
+  }
+
+  .header_phone_link {
+    margin: 0 80px 0 auto;
+  }
+}

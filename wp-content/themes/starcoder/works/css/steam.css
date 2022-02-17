@@ -1,0 +1,116 @@
+.steam_wrapper {
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+}
+  
+  .steam_background {
+    position: absolute;
+    width: 450px;
+    height: 450px;
+    bottom: -100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    opacity: 1;
+  }
+  
+  .steam1, .steam9 {
+    background-image: url(/wp-content/uploads/2021/10/smoke.png);
+    left: calc(50% - 225px);
+    transform: rotate(0deg);
+    animation: steam_anim1 linear 11s infinite;
+  }
+  
+  .steam2 {
+    background-image: url(/wp-content/uploads/2021/10/smoke1.png);
+    left: calc(50% - 275px);
+    transform: rotate(-100deg);
+    animation: steam_anim1 linear 11s infinite;
+  }
+  
+  .steam3 {
+    background-image: url(/wp-content/uploads/2021/10/smoke2.png);
+    left: calc(50% - 180px);
+    transform: rotate(-120deg);
+    animation: steam_anim1 linear 11s infinite;
+  }
+  
+  .steam4 {
+      background-image: url(/wp-content/uploads/2021/10/smoke3.png);
+    left: calc(50% - 250px);
+    transform: rotate(50deg);
+    animation: steam_anim3 linear 11s infinite;
+  }
+  
+  .steam5, .steam11 {
+      background-image: url(/wp-content/uploads/2021/10/smoke4.png);
+    left: calc(50% - 200px);
+    transform: rotate(50deg);
+    animation: steam_anim3 linear 11s infinite;
+  }
+  
+  .steam6 {
+      background-image: url(/wp-content/uploads/2021/10/smoke5.png);
+    left: calc(50% - 120px);
+    transform: rotate(0deg);
+    animation: steam_anim4 linear 11s infinite;
+  }
+  
+  .steam7 {
+        background-image: url(/wp-content/uploads/2021/10/smoke2.png);
+    left: calc(50% - 380px);
+    transform: rotate(0deg);
+    animation: steam_anim5 linear 11s infinite;
+  }
+  
+  .steam8, .steam10 {
+        background-image: url(/wp-content/uploads/2021/10/smoke1.png);
+    left: calc(50% - 190px);
+    transform: rotate(90deg);
+    animation: steam_anim3 linear 11s infinite;
+  }
+  
+  @keyframes steam_anim1 {
+    100% {
+      bottom: 100%;
+      transform: rotate(180deg); 
+      left: calc(50% - 200px);
+      opacity: 0;
+    }
+  }
+  
+  @keyframes steam_anim2 {
+    100% {
+      bottom: 100%;
+      transform: rotate(-100deg);
+      left: calc(50% - 225px);
+      opacity: 0;
+    }
+  }
+  
+  @keyframes steam_anim3 {
+    100% {
+      bottom: 100%;
+      transform: rotate(-100deg);
+      left: calc(50% - 225px);
+      opacity: 0;
+    }
+  }
+  
+  @keyframes steam_anim4 {
+    100% {
+      bottom: 100%;
+      transform: rotate(220deg); 
+      left: calc(50% - 350px);
+      opacity: 0;
+    }
+  }
+  
+  @keyframes steam_anim5 {
+    100% {
+      bottom: 100%;
+      transform: rotate(260deg); 
+      left: calc(50% - 150px);
+      opacity: 0;
+    }
+  }
